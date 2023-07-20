@@ -7,3 +7,5 @@ const funcionDeNumeroPar = function esPar(number) {
   }
 
   module.exports = funcionDeNumeroPar;
+
+  
