@@ -1,0 +1,1 @@
+const multiplicacion = function(num){return num * 2}
