@@ -29,6 +29,4 @@ function parDuplicado(array) {
 
 // console.log(funcionDeAzul(2));
 
-// console.log(parDuplicado([1, 2, 4, 5, 6, 8])); 
-
-console.log(multiplicacion(2));
+console.log(parDuplicado([1, 2, 4, 5, 6, 8])); 
