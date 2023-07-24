@@ -1,32 +1,14 @@
-const funcionDeNumeroPar = require("./funcionpar.js");
-const multiplicacion = require("./multiplicacion.js");
+const par = require("./funcionpar");
+const multiplica = require("./multiplicacion");
 
-// const funcionDeAzul = function(number){
-//   return number * 2; 
-// } // borrar esto dsp
-
-// function parDuplicado(array) {
-//     let arrayNuevo = [];
-//     for (let i = 0; i < array.length; i++) {
-//         if (funcionDeNumeroPar([i])) {
-//             arrayNuevo.push(funcionDeAzul([i]))
-//         }
-//     }
-//     return arrayNuevo;    
-    
-// } 
-
-
-function parDuplicado(array) {
+function array(num){
     let arrayNuevo = [];
-    for (let i = 0; i < array.length; i++) {
-      if (funcionDeNumeroPar(array[i])) {
-        arrayNuevo.push(multiplicacion(array[i]));
-      }
+    for (let i = 0; i < num.length; i++) {
+        if (par(num[i])) {
+            arrayNuevo.push(multiplica(num[i]))
+        }
     }
-    return arrayNuevo;
-  };
+    return arrayNuevo
+}
 
-// console.log(funcionDeAzul(2));
-
-console.log(parDuplicado([1, 2, 4, 5, 6, 8])); 
+console.log(array([10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]))
